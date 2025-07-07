@@ -8,10 +8,46 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <h1 className="text-6xl font-bold">
+      <div className="relative flex flex-col items-center text-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <h1 className="text-6xl font-bold mb-8">
           Claude Test
         </h1>
+        
+        <div className="max-w-4xl mx-auto space-y-6 text-lg">
+          <h2 className="text-3xl font-semibold mb-6">Why Command Line AI > IDE AI</h2>
+          
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
+            <h3 className="text-xl font-semibold mb-3">🚀 Speed & Efficiency</h3>
+            <p className="text-gray-300">
+              Command line AI operates at the speed of thought. No GUI overhead, no plugin conflicts, 
+              just pure AI assistance that integrates seamlessly with your existing workflow.
+            </p>
+          </div>
+          
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
+            <h3 className="text-xl font-semibold mb-3">🔧 Tool Integration</h3>
+            <p className="text-gray-300">
+              Unlike IDE plugins that are limited to editor functions, command line AI can access 
+              your entire development environment - git, package managers, build tools, and more.
+            </p>
+          </div>
+          
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
+            <h3 className="text-xl font-semibold mb-3">🎯 Context Awareness</h3>
+            <p className="text-gray-300">
+              Command line AI understands your project structure, can read multiple files, 
+              and maintains context across your entire codebase, not just the current file.
+            </p>
+          </div>
+          
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
+            <h3 className="text-xl font-semibold mb-3">⚡ Unlimited Scope</h3>
+            <p className="text-gray-300">
+              From debugging to deployment, command line AI handles end-to-end development tasks 
+              without the constraints of IDE-specific implementations.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
