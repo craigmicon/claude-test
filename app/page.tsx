@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
         
         <div className="max-w-4xl mx-auto space-y-6 text-lg">
-          <h2 className="text-3xl font-semibold mb-6">Why Command Line AI > IDE AI</h2>
+          <h2 className="text-3xl font-semibold mb-6">Why Command Line AI &gt; IDE AI</h2>
           
           <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
             <h3 className="text-xl font-semibold mb-3">🚀 Speed & Efficiency</h3>
